@@ -13,26 +13,32 @@
 </head>
 
 <body>
-    <div class="countdown-container">
-        <h1 class="countdown-title">Countdown to New Year</h1>
-        <div class="countdown"> 
-            <div class="countdown-el days-c">
-                <p class="big-text" id="days">0</p>
-                <span>Days</span>
-            </div>
-            <div class="countdown-el hours-c">
-                <p class="big-text" id="hours">0</p>
-                <span>Hours</span>
-            </div>
-            <div class="countdown-el mins-c">
-                <p class="big-text" id="mins">0</p>
-                <span>Minutes</span>
-            </div>
-            <div class="countdown-el sec-c">
-                <p class="big-text" id="sec">0</p>
-                <span>Seconds</span>
+    <div class="d-flex flex-column gap-4 d-flex justify-content-center align-items-center">
+        <div class="countdown-container">
+            <h1 class="countdown-title">Countdown to New Year</h1>
+            <div class="countdown">
+                <div class="countdown-el days-c">
+                    <p class="big-text" id="days">0</p>
+                    <span>Days</span>
+                </div>
+                <div class="countdown-el hours-c">
+                    <p class="big-text" id="hours">0</p>
+                    <span>Hours</span>
+                </div>
+                <div class="countdown-el mins-c">
+                    <p class="big-text" id="mins">0</p>
+                    <span>Minutes</span>
+                </div>
+                <div class="countdown-el sec-c">
+                    <p class="big-text" id="sec">0</p>
+                    <span>Seconds</span>
+                </div>
             </div>
         </div>
+
+        <footer class="text-center align-items-center justify-content-center">
+            <p class="text-white fw-semibold">Made by Akiza❄️ - <span id="currentYear"></span></p>
+        </footer>
     </div>
 
     <!-- Custom JS -->

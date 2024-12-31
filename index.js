@@ -3,8 +3,10 @@ const hoursEl = document.getElementById("hours");
 const minsEl = document.getElementById("mins");
 const secEl = document.getElementById("sec");
 
+document.getElementById("currentYear").textContent = new Date().getFullYear();
+
 function countdown() {
-  const newYear = new Date("January 1, 2025 00:00:00");
+  const newYear = new Date("January 1, 2026 00:00:00");
   const now = new Date();
   const diff = newYear - now;
 
